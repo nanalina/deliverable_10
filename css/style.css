@@ -137,9 +137,9 @@ nav a:hover, nav a:focus{
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid and place it in the grid. */
 .container div: first-child{
+  background-image: url("../images/header.jpg");
   grid-column: 1 / -1;
   min-height: 500px;
-  background-image: url("../images/header.jpg");
 }
 
 
